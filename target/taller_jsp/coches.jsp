@@ -46,7 +46,7 @@
                     out.print("<td>" + coche.getColor() + "</td>");
                     out.print("<td>" + coche.getRevisado() + "</td>");
                     out.print("<td><a href=\"revisar.jsp?matricula=" + coche.getMatricula()+ "\">revisar</a></td>");
-                    out.print("<td><a href=\"alumno.jsp?matricula=" + coche.getMatricula() + "\">editar</a></td>");
+                    out.print("<td><a href=\"modificarcoche.jsp?matricula=" + coche.getMatricula() + "\">editar</a></td>");
                     out.print("<td><a href=\"bajacoche.jsp?matricula=" + coche.getMatricula() + "\">eliminar</a></td>");
                     out.print("</tr>");
                 }
